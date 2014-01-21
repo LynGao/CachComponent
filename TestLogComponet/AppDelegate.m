@@ -26,7 +26,8 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
 
-    
+    //**** import *************
+    //need to regedit the handler.
     [ExceptionHandler setDefualtExceptionHandler];
     
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
